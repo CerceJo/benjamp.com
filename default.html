@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<!-- saved from url=(0040)http://getbootstrap.com/examples/navbar/ -->
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="http://getbootstrap.com/favicon.ico">
+
+    <title>Navbar Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="http://getbootstrap.com/examples/navbar/navbar.css" rel="stylesheet">
+
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- Static navbar -->
+    <div class="navbar navbar-default" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="http://getbootstrap.com/examples/navbar/#">Ben Peters</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="javascript:hideAllData();showWork();">Work</a></li>
+                    <li><a href="javascript:hideAllData();showPlay();">Play</a></li>
+                    <li><a href="javascript:hideAllData();showOrigins();">Origins</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Work -->
+    <div id="workData" class="jumbotron show benjampData">
+        <h2>Microsoft</h2>
+
+        <p>I work at Microsoft as a Program Manager.</p>
+
+    </div>
+
+    <!-- Play -->
+    <div id="playData" class="jumbotron hidden benjampData">
+        <h2>Seattle</h2>
+
+        <p>I live in Seattle and enjoy travelling.</p>
+
+    </div>
+
+    <!-- Origins -->
+    <div id="originsData" class="jumbotron hidden benjampData">
+        <h2>Bloomington</h2>
+
+        <p>I grew up in Bloomington, Indiana.</p>
+
+    </div>
+
+    <div class="modal-footer"><i>This site is under construction</i></div>
+</div>
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/default.js"></script>
+
+</body>
+</html>
